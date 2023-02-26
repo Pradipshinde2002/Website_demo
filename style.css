@@ -1,0 +1,106 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    font-size: 2vw;
+}
+
+.nav>ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin-left:1vw;
+    margin-right: 1vw;
+    margin-top: 1VW;
+}
+
+.nav{
+    
+    display:flex;
+    justify-content: space-between;
+    margin-right: 1vw;
+    margin-left: 1.5vw;
+   
+}
+/*.text .nav{
+    text-color: red;
+}*/
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+    margin-right:3vw;
+}
+
+.text>div{
+
+    text-align: center;
+    
+}
+
+.text p{
+    margin-left: 2.5vw;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(97, 173, 190);
+    font-size: 1.5vw;
+    padding: 0.07vw;
+    color: white;
+}
+
+.developer{
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.nav li{
+
+    font-weight: bolder;
+}
+
+img[src="images/back img.jpeg"]{
+
+    width:95vw;
+    height:100vh;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+}
+
+img[src="images/html.png"]{
+
+    height: 25vh;
+    width: 12vw;
+}
+
+img[src="images/css.png"]{
+
+    height: 25vh;
+    width: 12vw;
+}
+
+img[src="images/js.png"]{
+
+    height: 25vh;
+    width: 12vw;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+a:link,a:visited{
+
+    color: black;
+}
+
+a:hover{
+
+    color: rgb(153, 11, 6);
+}
